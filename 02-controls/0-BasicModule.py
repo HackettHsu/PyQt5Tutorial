@@ -16,7 +16,7 @@ class FileName(QWidget):
         self.setWindowTitle("FileName")
 
 if __name__ == "__main__":
-    app = QApplication()
+    app = QApplication(sys.argv)
     main = FileName()
     main.show()
     sys.exit(app.exec_())
