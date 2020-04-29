@@ -10,7 +10,7 @@ class QCheckBoxDemo(QWidget):
     def initUI(self):
         self.setWindowTitle("复选框控件演示")
         layout = QHBoxLayout()
-        # checkBox1是已选中状态，应该输出2
+        # checkBox1是已选中状态，checkState应该输出2
         self.checkBox1 = QCheckBox("复选框控件1")
         # setChecked：设置默认勾选状态
         self.checkBox1.setChecked(True)

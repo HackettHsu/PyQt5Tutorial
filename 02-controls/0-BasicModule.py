@@ -12,6 +12,7 @@ class FileName(QWidget):
     def __init__(self):
         super(FileName, self).__init__()
         self.initUI()
+        
     def initUI(self):
         self.setWindowTitle("FileName")
 
