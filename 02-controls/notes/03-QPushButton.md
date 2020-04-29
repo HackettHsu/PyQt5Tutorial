@@ -32,6 +32,10 @@
 
     1. 如何将列表项添加到QComboBox控件中：*addItem("ItemName")* 或 *addItems(['ItemName1', 'ItemName2'])* 注意是Item**s**
 
-    2. 如何获取选中列表项：
+    2. 如何获取选中列表项。
+
+6. *QSlider*：滑块控件 [示例](../17-QSliderDemo.py)
+
+    水平*QSlider(Qt.Horizontal)*，垂直*QSlider(Qt.Vertical)*。
 
 具体还有哪些可用子类详见*QtWidgets.pyi*的*QAbstractButton*类，子类命名非常好理解。
