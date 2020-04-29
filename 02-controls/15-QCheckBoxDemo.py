@@ -26,7 +26,7 @@ class QCheckBoxDemo(QWidget):
         self.checkBox3 = QCheckBox("复选框控件3：半选中状态")
         self.checkBox3.stateChanged.connect(lambda : self.checkboxState(self.checkBox3))
         # 半选中要设置以下两个属性
-        # 属性1:Tristate 三态。设为True才能实现半选中状态功能
+        # 属性1:Tristate 三态。是否允许半选中
         self.checkBox3.setTristate(True)
         # 属性2：setCheckState中的Qt.PartiallyChecked，表示正处于半选中状态
         # 注意：Qt.PartiallyChecked不要加括号
