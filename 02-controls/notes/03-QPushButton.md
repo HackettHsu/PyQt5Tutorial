@@ -38,4 +38,8 @@
 
     水平*QSlider(Qt.Horizontal)*，垂直*QSlider(Qt.Vertical)*。
 
+7. *QSpinBox*：[计数器控件](../18-QSpinBoxDemo.py)
+
+    显示数字、获取数字、数据变化
+
 具体还有哪些可用子类详见*QtWidgets.pyi*的*QAbstractButton*类，子类命名非常好理解。
