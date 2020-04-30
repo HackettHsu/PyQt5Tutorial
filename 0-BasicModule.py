@@ -15,6 +15,7 @@ class FileName(QType):
         
     def initUI(self):
         self.setWindowTitle("FileName")
+        self.resize(500, 500)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
