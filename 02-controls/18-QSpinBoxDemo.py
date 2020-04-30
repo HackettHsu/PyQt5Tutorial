@@ -22,6 +22,10 @@ class QSpinBoxDemo(QWidget):
         self.label.setAlignment(Qt.AlignCenter)
         layout.addWidget(self.label)
         self.spinBox = QSpinBox()
+        # 设置初始值、最大值最小值、步长
+        self.spinBox.setValue(18)
+        self.spinBox.setRange(10, 38)
+        self.spinBox.setSingleStep(2)
         self.spinBox.valueChanged.connect(self.valueChange)
         layout.addWidget(self.spinBox)
         self.setLayout(layout)
