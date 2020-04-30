@@ -29,9 +29,27 @@
 
     2. 对话框显示按钮不同
 
-2. *QColorDialog*：显示颜色
+2. *QColorDialog*：[显示颜色](../05-QColorDialogDemo.py)
 
-3. *QFileDialog*：显示文件保存状况
+3. *QFileDialog*：[文件控制](../06-QFileDialogDemo.py)
+
+    分支非常多，最常用就是打开和保存文件。
+
+    打开文件：
+
+    1. *getOpenFileName(self, "窗口名称", "初始路径", "打开文件类型（\*.格式1 \*.格式2)")方法*：打开单个文件
+
+    返回两个值 fname文件名, quit是否取消了 （ quit也可以用_来不接受返回值）
+
+    2. *QFileDialog()方法*：直接使用了QFileDialog，具体及一些控制如下：
+
+    ```python
+    openFile = QFileDialog()
+    # 显示所有文件
+    openFile.setFileMode(QFileDialog.AnyFile)
+    # 选择（过滤）文件
+    openFile.setFilter(QDir.Files)
+    ```
 
 4. *QFontDialog*：[设置字体](../04-QFontDialogDemo.py) 显示字体列表和字号并设置
 

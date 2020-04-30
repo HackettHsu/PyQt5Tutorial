@@ -30,23 +30,20 @@ class QInputDialogDemo(QWidget):
 
     def getItem(self):
         items = ("C", "C++", "Ruby", "Python", "Java")
+        # 为什么有ok？这是该方法的返回值之一（该方法两个返回值）
         item, ok = QInputDialog.getItem(self, "请选择编程语言", "语言列表", items)
         if ok and item:
             self.lineEdit1.setText(item)
-            # 这个ok是什么？
-            print(f"Item 的 ok 是 {ok}")
 
     def getText(self):
         text, ok = QInputDialog.getText(self, "文本输入框", "输入姓名")
         if ok and text:
             self.lineEdit2.setText(text)
-            print(f"Text 的 ok 是 {ok}")
     
     def getInt(self):
         num, ok = QInputDialog.getInt(self, "整数输入框", "输入数字")
         if ok and num:
             self.lineEdit3.setText(str(num))
-            print(f"Int 的 ok 是 {ok}")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
