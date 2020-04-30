@@ -4,7 +4,7 @@
 
 2. 高级功能：
 
-    1. *EchoMode*：回显模式 [示例](../08-QLineEditEchoMode.py)
+    1. [*EchoMode*](../08-QLineEditEchoMode.py)：回显模式 
 
         共有四种回显模式：
 
@@ -16,9 +16,11 @@
 
         4. *PasswordEchoOnEdit*：混合密码模式。输入时显示字符，移出输入框后变成隐藏形式。
     
-    2. *PlaceholderText*：文本输入框在没有内容时会出现的提示 [示例](../08-QLineEditEchoMode.py)
+    2. [*PlaceholderText*](../08-QLineEditEchoMode.py)：文本输入框在没有内容时会出现的提示
 
-    3. 校验器（来自QtGui）：限制输入 [示例](../09-QLineEditValidator.py) 例如：
+    3. [*LinEditValidator*](../09-QLineEditValidator.py)：校验器（来自QtGui）：限制输入
+    
+        例如：
 
         1. 只能输入整数；
 
@@ -26,7 +28,7 @@
 
         3. 只能输入法字母和数字。
 
-    4. *setInputMask*：掩码限制QLineEdit输入 [示例](../10-QLineEditMask.py)
+    4. [*setInputMask*](../10-QLineEditMask.py)：掩码限制QLineEdit输入
 
         什么是掩码？我的理解就是用特定代码来指代特定的输入限制，如下表：
         
