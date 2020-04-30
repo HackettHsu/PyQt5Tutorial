@@ -11,17 +11,17 @@
 1. *QMessageBox*：[显示消息](../01-QMessageBoxDemo.py)
 
 
-    类型：
+    类型：*QMessageBox.type(self, MessageBoxName, MessageBoxTitle)*
 
     1. *QMessageBox.about()* 关于对话框
 
-    2. 错误对话框
+    2. *QMessageBox.critical()* 错误对话框
 
-    3. 警告对话框
+    3. *QMessageBox.warning()* 警告对话框
 
-    4. 提问对话框
+    4. *QMessageBox.question()* 提问对话框
 
-    5. 消息对话框
+    5. *QMessageBOx.information()* 消息对话框
 
     差异：
 
