@@ -8,7 +8,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 
-class FileName(QWidget):
+class FileName():
     def __init__(self):
         super(FileName, self).__init__()
         self.initUI()
