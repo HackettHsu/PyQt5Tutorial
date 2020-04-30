@@ -35,4 +35,4 @@
 
 4. *QFontDialog*：设置字体
 
-5. *QInputDialog*：获取用户输入
+5. *QInputDialog*：[获取用户输入](../02-QInputDialogDemo.py)
