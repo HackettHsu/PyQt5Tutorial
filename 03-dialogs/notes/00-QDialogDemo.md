@@ -33,6 +33,6 @@
 
 3. *QFileDialog*：显示文件保存状况
 
-4. *QFontDialog*：设置字体
+4. *QFontDialog*：[设置字体](../04-QFontDialogDemo.py) 显示字体列表和字号并设置
 
 5. *QInputDialog*：[获取用户输入](../02-QInputDialogDemo.py)
