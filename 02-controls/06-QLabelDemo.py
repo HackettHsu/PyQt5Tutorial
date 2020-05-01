@@ -29,8 +29,7 @@ class QLabelDemo(QWidget):
 
         label3.setAlignment(Qt.AlignCenter)
         label3.setToolTip("这是一个图片标签")
-        label3.setPixmap(QPixmap(QFileInfo(__file__).absolutePath() + "./image/罗小黑战记 电影原声带.bmp"))
-
+        label3.setPixmap(QPixmap(QFileInfo(__file__).absolutePath() + "./images/罗小黑战记 电影原声带.bmp"))
         label4.setOpenExternalLinks(True)# True，打开网页；False，响应槽设置
         label4.setText("<a href = 'https://item.jd.com/12417265.html'>\
         感谢关注 《Python从菜鸟到高手》</a>")

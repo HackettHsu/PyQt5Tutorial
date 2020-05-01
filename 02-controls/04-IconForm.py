@@ -20,7 +20,8 @@ class IconForm(QMainWindow):
         self.setWindowTitle("设置窗口图标")
         # 设置窗口图标
         root = QFileInfo(__file__).absolutePath()
-        self.setWindowIcon(QIcon(root + './image/test.ico'))
+        print(root)
+        self.setWindowIcon(QIcon(root + './images/test.ico'))
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
