@@ -2,9 +2,15 @@
 
 PyQt5的基本绘图API：在窗口上绘制各种元素，主要有以下三种：
 
-1. [*DrawText*](../00-DrawTextDemo.py)：绘制文本
+1. [*drawText*](../00-DrawTextDemo.py)：绘制文本
 
-2. [**]：各种图形（直线、点、椭圆、弧线、扇形、多边形等）
+2. 各种图形：
+
+    1. [点（以点绘图）](../01-DrawPointsDemo.py)
+
+    2. [直线](../02-DrawMultiLineDemo.py)
+
+    3. [其他图形](../03-DrawAllDemo.py)：其中含有
 
 3. [**]：图像
 
