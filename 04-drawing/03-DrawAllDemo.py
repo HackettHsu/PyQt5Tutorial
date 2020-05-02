@@ -44,7 +44,7 @@ class QDrawAllDemo(QWidget):
         painter.drawPolygon(polygon)
         # 图像
         image = QImage(QFileInfo(__file__).absolutePath() + './images/罗小黑战记 电影原声带.bmp')
-        rect = QRect(10, 400, image.width()/3, image.height()/3)
+        rect = QRect(10, 400, image.width() / 3, image.height() / 3)
         painter.drawImage(rect, image)
         painter.end()
 
