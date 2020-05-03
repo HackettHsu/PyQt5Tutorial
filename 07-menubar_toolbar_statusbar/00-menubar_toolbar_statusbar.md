@@ -5,3 +5,5 @@
     menu = bar.addMenu("Menu0")
 
 2. [工具栏](01-ToolbarDemo.py)
+
+3. [状态栏](02-StatusBarDemo.py)：用于显示状态信息
