@@ -1,4 +1,4 @@
-# lesson 100 16:10:56-
+# lesson 100 16:10:56-未记录结束时间
 import sys 
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *

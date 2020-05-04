@@ -11,3 +11,13 @@
 4. [设置伸缩量](../04-StretchDemo.py)：除*2*所述方法外，还可以用*addStretch*方法。
 
 5. [让按钮固定在窗口左下角](../05-RightButtomButtonDemo.py)：如确定取消按钮。实现方法：组成水平布局
+
+6. 栅格布局：
+
+    1. 基本使用：[用循环方式实现计算器UI](../06-CalcDemo.py)**P.S.：元组快速拆解方法：在前面加\***
+
+    2. 跨行跨列：[进行表单UI设计](../07-GridFormDemo.py)用栅格布局实现表单
+
+7. [表单布局](../08-FormLayoutDemo.py)
+
+8. [控件边界控制](../09-SplitterDemo.py)*QSplitter*
