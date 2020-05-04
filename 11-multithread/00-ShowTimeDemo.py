@@ -1,4 +1,4 @@
-# lesson 87 动态显示当前时间 22:32:22-
+# lesson 87 动态显示当前时间 22:32:22-忘记登记时间了
 import sys 
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
