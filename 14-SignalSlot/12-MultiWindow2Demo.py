@@ -9,7 +9,7 @@ from NewDateDialog import NewDateDialog
 
 class MultiWindow2(QWidget):
     
-    def __init__(self, parent=None):
+    def __init__(self, parent = None):
         super(MultiWindow2, self).__init__(parent)
         self.resize(500, 500)
         self.setWindowTitle("MultiWindow2")

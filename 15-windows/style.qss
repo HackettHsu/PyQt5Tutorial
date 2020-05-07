@@ -1,0 +1,8 @@
+QMainWindow{
+    border-image: url(./images/罗小黑战记\ 电影原声带.bmp);
+}
+QToolTip{
+    border : 10px solid rgb(45, 45, 45);
+    background : white;
+    color : red
+}
