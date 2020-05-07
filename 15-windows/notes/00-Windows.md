@@ -48,4 +48,6 @@
 
 16. [装载QSS文件](../16-LoadQSSFIleDemo.py)
 
-17. [用动画效果改变窗口尺寸](../17-AnimWindowDemo.py)
+17. [用动画效果改变窗口尺寸](../17-AnimWindowDemo.py)：*QPropertyAnimation*
+
+18. [用动画效果——不同的速度移动](../18-MoveWindowDemo.py)
