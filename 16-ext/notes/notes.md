@@ -8,4 +8,4 @@
 
         0. 基本使用：`pyinstaller XXX.py`，产生的产品要先出现终端再打开窗口；
 
-        1. `pyinstaller -Fw XXX.py`： *-w* 不显示终端；*-F*将所有的库打包成一个文件。
+        1. `pyinstaller -Fw XXX.py`： *-w* 不显示终端(?)；*-Fw*将所有的库打包成一个文件。
