@@ -1,4 +1,4 @@
-# lesson 67 2020年5月24日 22:10:26-
+# lesson 67 2020年5月24日 22:10:26-时间未记录
 import sys
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *

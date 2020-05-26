@@ -32,7 +32,7 @@ if __name__ == "__main__":
     # 先获取当前py文件的绝对路径
     root = QFileInfo(__file__).absolutePath()
     # 再与QIcon函数组合
-    app.setWindowIcon(QIcon(root + './image/test.ico'))
+    app.setWindowIcon(QIcon(root + './images/test.ico'))
     main = FirstMainWin()
     main.show()
 

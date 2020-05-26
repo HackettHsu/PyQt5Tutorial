@@ -13,7 +13,7 @@ class TableViewDemo(QWidget):
         self.resize(500, 500)
         # 先设置Model
         self.model = QStandardItemModel(4, 3)
-        # 设置行标题
+        # 设置行标题（表头）
         self.model.setHorizontalHeaderLabels(['id', 'name', 'age'])
         self.tableView = QTableView(self)
         # 关联控件和数据模型
