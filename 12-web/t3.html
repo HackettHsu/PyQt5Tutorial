@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Factorial Demo</title>
+        <meta charset="UTF-8">
+        <script src="./qwebchannel.js"></script>
+        <script language="javascript">
+            function callback(result)
+            {
+                alert("Result: " + result)
+            }
+
+            document.addEventListener("DOMContentLoaded", function ()
+            {
+                new QWebChannel(qt.webChannelTransport, function(channel)
+                {
+                    window.obj = channel.objects.obj;
+                });
+            });
+            
+            function onFactorial()
+            {
+                if (window.obj)
+                {
+                    var n = parseInt(document.getElementById('n').value);
+                    window.obj.factorial(n, callback)
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <label>Input N: </label>
+            <input type="text" id="n"></input>
+            <br/>
+            <input type="button" value="Cal Factorial" onclick="onFactorial()">
+        </form>
+    </body>
+</html>
