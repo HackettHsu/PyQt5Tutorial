@@ -1,11 +1,15 @@
 # lesson 94
 # 按视频来还是出问题
-import sys, os
+# 最后发现是少了MySharedObject.py
+# 但MySharedObject.py中又不包含QWebChannel……
+from PyQt5.QtWebEngineWidgets import QWebEngineView
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
-from PyQt5.QtWebEngineWidgets import *
+from MySharedObject  import MySharedObject
+from PyQt5.QtWebChannel import  QWebChannel
 from factorial import *
+import sys, os
 
 # 创建传输到JavaScript的对象
 channel = QWebChannel()
